@@ -1,0 +1,76 @@
+html, body {
+    position: relative;
+    height: 100%;
+  }
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 100% !important;
+    position: fixed;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .strong-font{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    box-shadow: 0px 0px 11px 2px #888888;
+  }
+
+  
+  .bottom{
+    width: 100%;
+    height: 10px;
+    background-color: none;
+    position: fixed;
+    bottom: 150px;
+    left: 0px;
+    z-index: 2;
+  }
+  .button{
+      width:100px;
+      height:40px;
+      border-radius:10px;
+      background: #ed475a;
+      background: linear-gradient(to right,#ed475a,#ea7834);
+      line-height:40px;
+      color:white;
+  }
+  .image1{
+    background-image:url("../icon/KakaoTalk_20180512_042217968.png");
+  }
+  .image2{
+    background-image:url("../icon/KakaoTalk_20180512_042225567.png");
+  }
+  .image3{
+    background-image:url("../icon/KakaoTalk_20180512_042228207.png");
+  }
+  .image4{
+    background-image:url("../icon/KakaoTalk_20180512_042221629.png");
+  }

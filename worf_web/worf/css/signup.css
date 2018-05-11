@@ -1,0 +1,95 @@
+html,body{
+    margin:0px;
+}
+body{
+    background-color:#39364d;
+}
+.myService{
+    color:white;
+    font-size:20px;
+    margin-top:30px;
+}
+.subTitle{
+    color:#635e86;
+    font-size:14px;
+    margin-top:20px;
+}
+.icon_img{
+    width:20px;
+    display:absolute;
+}
+.icon{
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+.input-form{
+    width:200px;
+    display:inline-block;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #9b96b6;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #9b96b6;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:  #9b96b6;
+}
+input{
+    background-color:#39364d;
+    border:none;
+    outline:none;
+    color:#9b96b6;
+}
+.line{
+    width:300px;
+    height:45px;
+    border-radius:20px;
+    border:1px solid #9b96b6;
+    margin-top:20px;
+    line-height:45px;
+}
+.signup-button{
+    background: #ed475a; /* For browsers that do not support gradients */
+    background: linear-gradient(to right,#ed475a,#ea7834);
+    width:300px;
+    height:45px;
+    border-radius:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    color:white;
+    line-height:45px;
+    font-size:14px;
+}
+.foreign_check{
+    width:100%;
+    height:60px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 10px;
+}
+.img_one{
+    width:60px;
+    height:60px;
+    display:inline-block;
+    background-color: #39364d;
+    border-radius: 60px;
+    margin-right: 10px;
+}
+.check_img{
+    width:50px;
+    position:relative;
+    top:5px;
+}
+.img_tag{
+    display:inline;
+    background-color:white;
+    border-radius:15px;
+    font-size:12px;
+    padding:3px;
+}

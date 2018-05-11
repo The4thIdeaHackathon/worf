@@ -1,0 +1,60 @@
+html.body{
+    margin:0px;
+}
+body{
+    background-color:#39364d;
+}
+.modal{
+    width:100%;
+    height:100%;
+    background-color:none;
+}
+.modal_content{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    margin-top: 100px;
+
+}
+.modal_text{
+    color: #9b96b6;
+    position: relative;
+    top: 30px;
+}
+.tag{
+    color: white;
+    font-size: 8px;
+    text-align: left;
+    left: 10px;
+    position: relative;
+}
+.cont{
+    color: #9b96b6;
+    border: 1px solid #9b96b6;
+    border-radius: 20px;
+    height: 30px;
+    line-height: 30px;
+    min-height: 30px;
+    height: auto;
+    padding: 5px;
+}
+.half_box{
+    width:47.5%;
+    display:inline-block;
+    margin-left:3.5px;
+}
+.button{
+    background: #ed475a; /* For browsers that do not support gradients */
+    background: linear-gradient(to right,#ed475a,#ea7834);
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #a372b5;
+    color: #f3f0ec;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.button-container{
+    margin-top:50px;
+}

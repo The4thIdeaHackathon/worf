@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+}
+body{
+    background-color:#39364d;
+}
+.login-form{
+    width:300px;
+}
+.tag{
+    width:50px;
+    display:inline-block;
+    color:#9b96b6;
+}
+.input_form{
+    width:190px;
+    display:inline-block;
+}
+.button{
+    background: #ed475a; /* For browsers that do not support gradients */
+    background: linear-gradient(to right,#ed475a,#ea7834);
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #a372b5;
+    color: #f3f0ec;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.logo_img{
+    width:120px;
+}
+.logo{
+    font-size: 70px;
+    margin-top: 50px;
+    color:#9b96b6;
+    width: 120px;
+}
+.content{
+    margin-top:30px;
+}
+.button-container{
+    margin-top:50px;
+}
+.login-form{
+    margin-top: 20px;
+}
+.login-title{
+    color:white;
+    font-size:20px;
+    margin-top:30px;
+}
+.login-line{
+    width:250px;
+    height:45px;
+    border-radius:20px;
+    border: 1px solid #9b96b6;
+    margin-top:20px;
+    line-height:45px;
+}
+input{
+    border:none;
+    background-color:inherit;
+    color:white;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #9b96b6;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #9b96b6;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:  #9b96b6;
+}
