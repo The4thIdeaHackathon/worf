@@ -18,6 +18,7 @@ Applications used by foreigners and those who want to learn at Chonbuk National 
 soronto3603@gmail.com
 
 Copyright (c) 2018 Team WORF
+
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
 files (the "Software"), to deal in the Software without
