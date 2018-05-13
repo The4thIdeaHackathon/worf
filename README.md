@@ -1,4 +1,7 @@
 # "WORF" PROJECT
+
+Applications used by foreigners and those who want to learn at Chonbuk National University
+
 # Project Member
  - Hyun UnYoung
  - Son JinSung
@@ -13,3 +16,5 @@
 
 # Contact US
 soronto3603@gmail.com
+
+COPYRIGHT by soronto3603@gmail.com
