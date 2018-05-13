@@ -1,0 +1,49 @@
+html.body{
+    margin:0px;
+}
+body{
+    background-color:#4A3E99;
+}
+.title{
+    color:white;
+}
+.tag_box{
+    border-radius:20px;
+    width:100%;
+    border:1px solid white;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.hash_box{
+    border-radius:20px;
+    display:inline-block;
+    border:1px solid white;
+    color:white;
+    padding:8px;
+    margin:3px;
+}
+.hash_box:hover{
+    color:#4A3E99;
+    background-color:white;
+}
+.ad{
+    background-color:#35324a;
+    height:125px;
+}
+.ad_text1{
+    color:#c58eda;
+    margin-left:10px;
+    padding-top:10px;
+}
+.ad_text2{
+    color:#bebec1;
+    margin-left:10px;
+}
+.ad_button{
+    background-color:#75658e;
+    color:white;
+    padding:5px;
+    display:inline-block;
+    position:absolute;
+    right:20px;
+}

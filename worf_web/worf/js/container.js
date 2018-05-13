@@ -24,7 +24,7 @@ window.onmessage=(r)=>{
     }else{
       var object=JSON.parse(data);
       if(object.title=="talk"){
-          request_other_url("http://222.105.33.162/worf/chat.php?src="+object.from+"?dest="+object.to);
+          request_other_url("http://222.105.33.162/worf/chat.php?src="+object.from+"&dest="+object.to);
       }  
     }
 }
@@ -42,10 +42,10 @@ function navi_swap(next_){
         navi=2;
     }
     if(navi==0 && post_navi!=0){
-        document.getElementById('iframe').src="http://222.105.33.162/worf/matching.php";
+        document.getElementById('iframe').src="http://222.105.33.162/worf/matching.php?id="+id;
     }else if(navi==1 && post_navi!=1){
-        document.getElementById('iframe').src="http://222.105.33.162/worf/talking.php";
+        document.getElementById('iframe').src="http://222.105.33.162/worf/talking.php?id="+id;
     }else if(navi==2 && post_navi!=2){
-        document.getElementById('iframe').src="http://222.105.33.162/worf/myinfo.php"
+        document.getElementById('iframe').src="http://222.105.33.162/worf/recommend.php?id="+id;
     }
 }

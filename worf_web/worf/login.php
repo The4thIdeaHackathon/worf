@@ -14,7 +14,11 @@
             </div>
             <div class=content>
                 
-                <div class=logo><img class="logo_img" src="icon/KakaoTalk_20180511_231558893.png"></div>
+                <div class=logo>
+                    <img class="logo_img" src="icon/KakaoTalk_20180511_231558893.png">
+                    <img style="width:80px;" src="icon/iconmonstr-x-mark-2-240.png">
+                    <img style="width:80px;" src="icon/KakaoTalk_20180513_114002970.png">
+                </div>
                 <div class=login-form>
                     <div class=login-line>
                         <div class=tag>ID</div>

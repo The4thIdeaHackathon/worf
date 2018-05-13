@@ -6,6 +6,12 @@
         <link rel="stylesheet" href="./css/talking.css">
     </head>
     <body>
-
+        <div id=content>
+            <!-- <div class=line>
+            <div class=name>현운용</div>
+            <div class=text>하이하이</div>
+        </div> -->    
+        </div>
+    <script type="text/javascript" src="js/talking.js"></script>
     </body>
 </html>

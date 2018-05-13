@@ -11,7 +11,7 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide" style="background-color:#39364d;color:white;">Matching</div>
             <div class="swiper-slide" style="background-color:#7A66FF;color:white;">Talking</div>
-            <div class="swiper-slide" style="background-color:#4A3E99;color:white;">My Info</div>
+            <div class="swiper-slide" style="background-color:#4A3E99;color:white;">Recommendation</div>
         </div>
         <!-- Add Arrows -->
         <div class="swiper-button-next" onclick="navi_swap(1)"><img class=next_button src="icon/KakaoTalk_20180512_023425342.png"></div>

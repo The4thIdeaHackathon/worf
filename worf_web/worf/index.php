@@ -16,10 +16,10 @@
             <div class="strong-font">외국인과 친해지고 싶으신가요?</div>
         </div>
         <div class="swiper-slide image2">
-            <div class="strong-font">아직도 옆자리 앉은 외국인이<br> 누군지 모르신가요?</div>
+            <div class="strong-font">아직도 외국인 앞에만 서면 입이 열리지 않는 우리</div>
         </div>
         <div class="swiper-slide image3">
-            <div class="strong-font">나날이 늘고 있는 외국인 유학생!</div>
+            <div class="strong-font">우리가 만나는 사람 100명중 3명은 외국인 유학생!</div>
         </div>
         <div class="swiper-slide image4">
             <div class="strong-font">지금 시작하세요!</div>

@@ -6,7 +6,6 @@ function check_login(){
     var id=document.getElementById('id').value;
     var pw=document.getElementById('pw').value;
     $.post("db/selectCheckLogin.php",{id:id,pw:pw}).done((r)=>{
-        alert(r);
         if(r=='0'){
             alert("로그인 실패!");
         }else{

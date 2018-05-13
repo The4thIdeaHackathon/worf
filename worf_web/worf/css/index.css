@@ -64,13 +64,29 @@ html, body {
   }
   .image1{
     background-image:url("../icon/KakaoTalk_20180512_042217968.png");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .image2{
     background-image:url("../icon/KakaoTalk_20180512_042225567.png");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .image3{
-    background-image:url("../icon/KakaoTalk_20180512_042228207.png");
+    background-image:url("../icon/KakaoTalk_20180512_212709724.png");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .image4{
-    background-image:url("../icon/KakaoTalk_20180512_042221629.png");
+    background-image:url("../icon/KakaoTalk_20180512_211031385.png");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }

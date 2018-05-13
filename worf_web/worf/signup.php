@@ -47,7 +47,15 @@
     </div>
     <div class="line">
       <div class="icon"><img class=icon_img src="icon/KakaoTalk_20180511_221957021.png"></div>
-      <div class="input-form"><input id=language type=text placeholder="Language"></div>
+      <div class="input-form">
+        <!-- <input id=language type=text placeholder="Language"> -->
+        <select name="sources" id="language" class="custom-select sources" placeholder="Languages">
+          <option value="Korean">Korean</option>
+          <option value="English">English</option>
+          <option value="Japaness">Japanese</option>
+          <option value="Chiness">Chinese</option>
+        </select>
+      </div>
     </div>
     <div class="line">
       <div class="icon"><img class=icon_img src="icon/KakaoTalk_20180511_222919444.png"></div>

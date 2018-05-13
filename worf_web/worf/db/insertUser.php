@@ -10,6 +10,7 @@
     $name=urlencode($_POST['name']);
     $password=urlencode($_POST['password']);
     $isforeigner=$_POST['isforeigner'];
-    $query="INSERT INTO user(no,id,email,depart,major,language,studID,intro,name,password,isforeigner) VALUES(NULL,'$id','$email','$depart','$major','$language','$studID','$intro','$name','$password',$isforeigner)";
+    $hashtag=urlencode($_POST['hashtag']);
+    $query="INSERT INTO user(no,id,email,depart,major,language,studID,intro,name,password,isforeigner,hashtag) VALUES(NULL,'$id','$email','$depart','$major','$language','$studID','$intro','$name','$password',$isforeigner,'$hashtag')";
     mysqli_query($con,$query);
 ?>
